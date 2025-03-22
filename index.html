@@ -10,9 +10,13 @@
     <!-- The meain header -->
     <header>
         <div class="header__container">
-            <h1>People entered:</h1>
-            <h2 id="count-el">0</h2>
-            <button class="btn" onclick="increment()">INCREMENT</button>
+            <h1 id="entered">People entered:</h1>
+            <h2 id="count__el">0</h2>
+            <div class="button__section">
+                <button class="btn" onclick="increment()">INCREMENT</button>
+                <button class="btn save__btn" onclick="save()">SAVE</button>
+            </div>
+            <p id="save__el">Previous entries: </p>
         </div>
     </header>
 
